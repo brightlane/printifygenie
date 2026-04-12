@@ -1,6 +1,6 @@
 name: Daily SEO Rollout
 on:
-  workflow_dispatch: # Allows you to start it manually
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 
