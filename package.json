@@ -1,0 +1,31 @@
+{
+  "name": "printifygenie",
+  "version": "1.0.0",
+  "description": "Automated social media posts for Printify products",
+  "main": "index.js",
+  "scripts": {
+    "start": "node daily-run.js",
+    "post": "node daily-posts.js",  // Add a script to post social media updates
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",                   // For HTTP requests
+    "twitter-api-v2": "^1.8.0",           // For interacting with Twitter API
+    "node-fetch": "^2.6.1",               // For fetching data (especially for older APIs)
+    "dotenv": "^10.0.0",                  // For loading environment variables from .env file
+    "facebook-node-sdk": "^1.3.0",        // For Facebook API integration (if needed)
+    "instagram-private-api": "^4.0.4"     // Instagram API for private accounts (if needed)
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"                  // For auto-reloading your app in development (optional)
+  },
+  "engines": {
+    "node": ">=14.0.0"                    // Specify Node.js version compatibility
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/yourrepo.git"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
