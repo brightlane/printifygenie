@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block admin or internal folders (if they exist)
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /scripts/
+Disallow: /output/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://brightlane.github.io/printifygenie/sitemap.xml
